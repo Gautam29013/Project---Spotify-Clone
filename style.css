@@ -69,9 +69,22 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(19, 19, 19);
+    background-color: rgb(34 34 34);
 }
 
 .header>* {
     padding: 20px;
+}
+
+.spotify-Playlists {
+    padding: 16px;
+}
+
+.spotify-Playlists .card {
+    width: 250px;
+}
+
+.card {
+    width: 100%;
+    object-fit: contain;
 }
