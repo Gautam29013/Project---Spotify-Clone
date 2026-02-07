@@ -56,6 +56,7 @@ body {
     gap: 13px;
     position: absolute;
     bottom: 0;
+    padding: 10px 0;
 }
 
 .footer a {
@@ -80,11 +81,47 @@ body {
     padding: 16px;
 }
 
-.spotify-Playlists .card {
+.cardContainer {
+    margin: 30px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    max-height: 70vh;
+}
+
+.card {
     width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #252525;
+}
+
+.card>* {
+    padding-top: 10px;
 }
 
 .card {
     width: 100%;
     object-fit: contain;
+}
+
+.play {
+    width: 28px;
+    height: 8px;
+    background-color: #1fdf64;
+    border-radius: 50px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 168px;
+    right: 17px;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+
+.signupbtn {
+    background-color: black;
 }
