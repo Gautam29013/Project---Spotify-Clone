@@ -160,8 +160,8 @@ body {
 .playbar {
     position: absolute;
     bottom: 0;
-    background-color: rgb(139, 193, 139);
-    width: 100%;
+    background-color: rgb(241, 246, 241);
+    width: 90%;
     padding: 12px;
 }
 
